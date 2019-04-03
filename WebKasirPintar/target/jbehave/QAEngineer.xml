@@ -1,0 +1,15 @@
+<story path="QAEngineer.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="As a">user</inOrderTo>
+  <asA keyword="I want to">find a job as Quality Assurance Engineer</asA>
+  <iWantTo keyword="So that">I can get information</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Scenario Find a job Quality Assurance Engineer Success">
+<step outcome="successful">Given I open kasirpintar homepage</step>
+<step outcome="successful">When I click button &apos;karir&apos;</step>
+<step outcome="pending" keyword="PENDING">When I fill Quality Assurance Engineer in column field &apos;cari posisi&apos;</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When I choose Technology in scroll bar of &apos;Divisi&apos;</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When I Click Button &apos;Cari&apos;</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then I got list of Quality Assurance Engineer positions</step>
+</scenario>
+</story>

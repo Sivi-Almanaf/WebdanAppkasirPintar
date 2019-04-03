@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>QAEngineer</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+ 
+<script type="syntaxhighlighter" class="brush: xml"><![CDATA[
+<story path="QAEngineer.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="As a">user</inOrderTo>
+  <asA keyword="I want to">find a job as Quality Assurance Engineer</asA>
+  <iWantTo keyword="So that">I can get information</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Scenario Find a job Quality Assurance Engineer Success">
+<step outcome="successful">Given I open kasirpintar homepage</step>
+<step outcome="successful">When I click button &apos;karir&apos;</step>
+<step outcome="pending" keyword="PENDING">When I fill Quality Assurance Engineer in column field &apos;cari posisi&apos;</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When I choose Technology in scroll bar of &apos;Divisi&apos;</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When I Click Button &apos;Cari&apos;</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then I got list of Quality Assurance Engineer positions</step>
+</scenario>
+</story>
+
+]]></script>
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>
